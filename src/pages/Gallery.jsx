@@ -43,10 +43,13 @@ export default function Gallery() {
 
   const currentImage = lightIdx !== null ? filtered[lightIdx] : null;
 
+  // Use first gallery image for hero, or a local image as fallback
+  const heroImage = GALLERY[0]?.src || "/images/263645971.jpg";
+
   return (
     <>
       <Hero
-        image={GALLERY[4]?.src || "/images/gallery-5.jpg"}
+        image={heroImage}
         size="sm"
         eyebrow="Gallery"
         title="Moments at Hart-se-Punt"

@@ -4,7 +4,8 @@ import { GALLERY } from "@/lib/siteData";
 import SectionHeading from "@/components/ui-blocks/SectionHeading";
 
 export default function GalleryTeaser() {
-  const picks = [GALLERY[5], GALLERY[4], GALLERY[6], GALLERY[0], GALLERY[3]];
+  // Pick some lovely showcase images for the teaser
+  const picks = [GALLERY[5], GALLERY[2], GALLERY[7], GALLERY[11], GALLERY[12]];
   return (
     <section className="py-20 md:py-28 bg-background">
       <div className="max-w-7xl mx-auto px-5 md:px-8">

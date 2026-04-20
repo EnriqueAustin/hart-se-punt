@@ -5,10 +5,11 @@ import Testimonials from "@/components/home/Testimonials";
 import LocationTeaser from "@/components/home/LocationTeaser";
 import FinalCTA from "@/components/home/FinalCTA";
 import { BookingCTA, ReserveCTA } from "@/components/ui-blocks/CTAButtons";
+import { GALLERY } from "@/lib/siteData";
 
-const HERO_IMG = "/images/hero.jpg";
-const BEACH_IMG = "/images/beach.jpg";
-const COAST_IMG = "/images/coast.jpg";
+const HERO_IMG = "/images/hero.jpeg";
+const BEACH_IMG = "/images/262336746.jpg";
+const COAST_IMG = "/images/262336742.jpg";
 
 export default function Home() {
   return (
